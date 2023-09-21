@@ -112,7 +112,7 @@ if __name__ == '__main__':
 
 
     model = DGCNN_cls(n_classes)
-    model.load_state_dict(torch.load('./PretrainModel/'+'DGCN_ModelNet40.parm'))
+    #model.load_state_dict(torch.load('./PretrainModel/'+'DGCN_ModelNet40.parm'))
     model = model.cuda()
 
     # model = Pct(args).cuda()
