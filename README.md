@@ -7,11 +7,10 @@ There are some packages in our settings:
 
 Version:
 
-numpy==1.19.2
+numpy=1.19.2
 
-scipy==1.2.0
+scipy=1.2.0
 
-scikit-learn==0.24.2
-
+scikit-learn=0.24.2
 
 If you want to extract feature by yourself, you can run saveOutPutDGCNN.py. The DGCNN model is used PyTorch version.
